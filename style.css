@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&family=Source+Serif+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 90vw;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 50px;
+}
+
+.leftHead img{
+    width: 10%;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.rightHead{
+    position: absolute;
+    margin-left: 250px;
+}
+
+.rightHead h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightHead p{
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.coding, .hobby, .study, .skill{
+    margin: 30px;
+}
+
+li, td{
+    font-family: 'Source Code Pro', monospace;
+}
+
+label{
+    font-family: 'Source Code Pro', monospace;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.btn{
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contactCon{
+    margin: 50px;
+}
+
+.info{
+    padding: 15px;
+}
+
+.input{
+    padding: 15px;
+}
